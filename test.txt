@@ -1,5 +1,9 @@
+<<<<<<< HEAD
 Cfecd
 afB
+=======
+Bibh
+>>>>>>> bai4
 da sua file nay
 B
 .
