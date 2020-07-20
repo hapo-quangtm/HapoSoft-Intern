@@ -1,6 +1,25 @@
+@font-face {
+    font-family: 'Open Sans';
+    font-style: normal;
+    font-weight: 300;
+    src: local('Open Sans Light'), local('OpenSans-Light'), url(https://fonts.gstatic.com/s/opensans/v13/DXI1ORHCpsQm3Vp6mXoaTXhCUOGz7vYGh680lGh-uXM.woff) format('woff');
+}
+
+@font-face {
+    font-family: 'UTM';
+    src: url(../Font/UTMBryantLG.ttf);
+    font-style: normal;
+    font-weight: normal;
+}
+
+@font-face {
+    font-family: 'UTM';
+    src: url(../Font/UTMBryantLG_B.ttf);
+    font-weight: bold;
+}
+
 body {
     width: 100%;
-    height: 150px;
     display: flex;
     flex-direction: column;
 }
@@ -55,17 +74,47 @@ body {
 
 .HapoBanner .HapoBannerImg {
     position: absolute;
-    width: 1284px;
+    width: 100%;
     height: auto;
     z-index: -1;
 }
 
-.HapoBanner .FooterText {
-    padding-top: 204px;
-    padding-left: 59px;
+.HapoBanner .BannerText {
+    margin: 0px;
+    font-family: "UTM BryantLG";
+    font-style: normal;
+    color: #11114E;
+    font-size: 35px;
+    line-height: 61px;
+    letter-spacing: -0.05em;
+    margin-left: 40px;
+    justify-content: center;
+    margin-top: 160px;
+}
+
+.BigContent {
+    margin-bottom: 0px;
+}
+
+.MediumContent {
+    margin-top: 0px;
+    margin-bottom: 5px;
+}
+
+.SmallContent {
+    margin-top: 5px;
+    margin-bottom: 0px;
+}
+
+.SmallContent {
+    font-size: 15px;
+    line-height: 25px;
+    color: #505353;
 }
 
 .StartLearning {
+    font-family: "UTM BryantLG";
+    font-weight: bold;
     background-color: #B2D235;
     padding: 13px 67px 20px 67px;
     border-radius: 35px;
