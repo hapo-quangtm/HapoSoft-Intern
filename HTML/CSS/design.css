@@ -24,25 +24,25 @@ body {
     flex-direction: column;
 }
 
-.HapoHeader {
+.hapoheader {
     color: #ffffff;
     float: left;
     display: flex;
     align-items: center;
 }
 
-.HapoHeader img {
+.hapoheader img {
     width: "340.16px";
     height: "70px";
     padding: 30px;
 }
 
-.Menu li {
+.menu li {
     display: inline-block;
     list-style-type: none;
 }
 
-.Menu li a {
+.menu li a {
     font-family: "Open Sans";
     font-style: normal;
     font-weight: bold;
@@ -55,31 +55,31 @@ body {
     padding: 8px;
 }
 
-.Menu li :hover {
+.menu li :hover {
     color: blue;
     text-decoration: underline;
 }
 
-.Menu .AllCourse {
+.menu .allCourse {
     background-color: #B2D235;
     border-radius: 17px;
     color: #ffffff;
 }
 
-.HapoBanner {
+.hapobanner {
     position: absolute;
     width: 100%;
     z-index: -1;
 }
 
-.HapoBannerImg {
+.hapobannerimg {
     position: absolute;
     width: 100%;
     height: auto;
     z-index: -1;
 }
 
-.BannerText {
+.bannertext {
     margin: 0px;
     font-family: "UTM BryantLG";
     font-style: normal;
@@ -92,21 +92,21 @@ body {
     margin-top: 160px;
 }
 
-.MediumContent {
+.mediumcontent {
     margin-bottom: 5px;
 }
 
-.SmallContent {
+.smallcontent {
     margin-top: 5px;
 }
 
-.SmallContent {
+.smallcontent {
     font-size: 15px;
     line-height: 25px;
     color: #505353;
 }
 
-.StartLearning {
+.startlearning {
     font-family: "UTM BryantLG";
     font-weight: bold;
     background-color: #B2D235;
