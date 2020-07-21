@@ -24,14 +24,14 @@ body {
     flex-direction: column;
 }
 
-.hapoheader {
+.hapo-header {
     color: #ffffff;
     float: left;
     display: flex;
     align-items: center;
 }
 
-.hapoheader img {
+.hapo-header img {
     width: "340.16px";
     height: "70px";
     padding: 30px;
@@ -57,26 +57,26 @@ body {
     text-decoration: underline;
 }
 
-.menu .allcourse {
+.menu .all-course {
     background-color: #B2D235;
     border-radius: 17px;
     color: #ffffff;
 }
 
-.hapobanner {
+.hapo-banner {
     position: absolute;
     width: 100%;
     z-index: -1;
 }
 
-.hapobannerimg {
+.hapo-bannerimg {
     position: absolute;
     width: 100%;
     height: auto;
     z-index: -1;
 }
 
-.bannertext {
+.banner-text {
     margin: 0;
     font: "UTM BryantLG" normal 35px;
     color: #11114E;
@@ -87,21 +87,21 @@ body {
     margin-top: 160px;
 }
 
-.mediumcontent {
+.medium-content {
     margin-bottom: 5px;
 }
 
-.smallcontent {
+.small-content {
     margin-top: 5px;
 }
 
-.smallcontent {
+.small-content {
     font-size: 15px;
     line-height: 25px;
     color: #505353;
 }
 
-.startlearning {
+.start-learning {
     font-family: "UTM BryantLG";
     font-weight: bold;
     background-color: #B2D235;
