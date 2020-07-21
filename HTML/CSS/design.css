@@ -43,10 +43,7 @@ body {
 }
 
 .menu li a {
-    font-family: "Open Sans";
-    font-style: normal;
-    font-weight: bold;
-    font-size: 14px;
+    font: "Open Sans" normal bold 14px;
     line-height: 19px;
     text-transform: uppercase;
     color: #505353;
@@ -81,10 +78,8 @@ body {
 
 .bannertext {
     margin: 0px;
-    font-family: "UTM BryantLG";
-    font-style: normal;
+    font: "UTM BryantLG" normal 35px;
     color: #11114E;
-    font-size: 35px;
     line-height: 61px;
     letter-spacing: -0.05em;
     margin-left: 40px;
