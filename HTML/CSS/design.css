@@ -72,14 +72,14 @@ body {
     z-index: -1;
 }
 
-.HapoBanner .HapoBannerImg {
+.HapoBannerImg {
     position: absolute;
     width: 100%;
     height: auto;
     z-index: -1;
 }
 
-.HapoBanner .BannerText {
+.BannerText {
     margin: 0px;
     font-family: "UTM BryantLG";
     font-style: normal;
@@ -90,17 +90,14 @@ body {
     margin-left: 40px;
     justify-content: center;
     margin-top: 160px;
-    margin-bottom: 0px;
 }
 
 .MediumContent {
-    margin-top: 0px;
     margin-bottom: 5px;
 }
 
 .SmallContent {
     margin-top: 5px;
-    margin-bottom: 0px;
 }
 
 .SmallContent {
