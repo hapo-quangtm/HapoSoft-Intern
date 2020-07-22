@@ -326,12 +326,12 @@ body {
 
 .other-course .css-course .css-img {
   height: 50%;
-  background-color: #3F6185;
+  background-color: #24ABE2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
-  padding-left: 17%;
+  padding-left: 20%;
 }
 
 .other-course .css-course .css-content {
@@ -346,12 +346,12 @@ body {
 
 .other-course .ruby-course .ruby-img {
   height: 50%;
-  background-color: #3F6185;
+  background-color: #E14E40;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
-  padding-left: 17%;
+  padding-left: 30%;
 }
 
 .other-course .java-course {
@@ -362,10 +362,16 @@ body {
 
 .other-course .java-course .java-img {
   height: 50%;
-  background-color: #3F6185;
+  background-color: #1B75BB;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
   padding-left: 17%;
+}
+.other-course .ruby-course .ruby-content {
+  text-align: center;
+}
+.other-course .java-course .java-content {
+  text-align: center;
 }
