@@ -44,8 +44,7 @@ body {
 }
 
 .menu li a {
-  font: "Open Sans" normal bold 14px;
-  line-height: 19px;
+  font: normal bold 14px/19px "Open Sans";
   text-transform: uppercase;
   color: #505353;
   text-decoration: none;
@@ -82,9 +81,8 @@ body {
 }
 
 .banner-text {
-  font: "UTM BryantLG" normal;
+  font: normal normal "UTM BryantLG";
   color: #11114E;
-  line-height: 61px;
   letter-spacing: -0.05em;
   margin-left: 40px;
   justify-content: center;
@@ -111,8 +109,7 @@ body {
 }
 
 .start-learning {
-  font-family: "UTM BryantLG";
-  font-weight: bold;
+  font: normal bold 18px/37px "UTM BryantLG";
   background-color: #B2D235;
   padding: 13px 67px 20px 67px;
   border-radius: 35px;
@@ -228,7 +225,7 @@ body {
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 .main-course .html-course .html-content {
@@ -248,7 +245,7 @@ body {
   border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 .main-course .laravel-course .laravel-content {
@@ -268,7 +265,7 @@ body {
   border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 .main-course .php-course .php-content {
@@ -276,10 +273,8 @@ body {
 }
 
 .lear-button {
-  font: "UTM BryantLG" normal bold 20px;
-  font-size: 18px;
+  font: normal bold 18px/22px "UTM BryantLG";
   letter-spacing: -0.05em;
-  line-height: 22px;
   color: #ffffff;
   border: 0.3px solid #FFFFFF;
   background-color: #B2D235;
@@ -288,23 +283,19 @@ body {
 }
 
 .green-text {
-  font: "UTM BryantLG" normal bold;
-  font-size: 30px;
-  line-height: 37px;
+  font: normal bold 30px/37px "UTM BryantLG";
   letter-spacing: -0.05em;
   color: #B2D235;
 }
 
 .normal-text {
-  font: "UTM BryantLG" normal bold;
-  font-size: 14px;
-  line-height: 20px;
+  font: normal bold 14px/20px "UTM BryantLG";
   letter-spacing: -0.05em;
   color: #505353;
 }
 
 .other-course-text {
-  font: "UTM BryantLG" normal bold;
+  font: normal bold "UTM BryantLG";
   text-align: center;
   padding-top: 110px;
   font-size: 60px;
@@ -340,7 +331,7 @@ body {
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 .other-course .css-course .css-content {
@@ -360,11 +351,21 @@ body {
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
-  padding-left: 20%;
+  padding-left: 17%;
 }
 
 .other-course .java-course {
   width: 30%;
   height: 100%;
-  margin-right: 30px;
+  margin-right: 100px;
+}
+
+.other-course .java-course .java-img {
+  height: 50%;
+  background-color: #3F6185;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
+  border-radius: 15px 15px 0px 0px;
+  display: flex;
+  align-items: center;
+  padding-left: 17%;
 }
