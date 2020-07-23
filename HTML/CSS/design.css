@@ -25,6 +25,8 @@ body {
   flex-direction: column;
 }
 
+/*Header*/
+
 .hapo-header {
   color: #ffffff;
   float: left;
@@ -62,6 +64,8 @@ body {
   border-radius: 17px;
   color: #ffffff;
 }
+
+/*banner*/
 
 .banner {
   display: flex;
@@ -115,6 +119,8 @@ body {
   border-radius: 35px;
   color: #ffffff;
 }
+
+/*Footer*/
 
 .hapo-footer {
   color: #ffffff;
@@ -206,6 +212,8 @@ body {
   letter-spacing: -0.05em;
 }
 
+/*Main Course*/
+
 .main-course {
   width: 100%;
   height: 470px;
@@ -295,6 +303,8 @@ body {
   letter-spacing: -0.05em;
   color: #505353;
 }
+
+/*Other course*/
 
 .other-course-text {
   font: normal bold 'UTM';
@@ -392,6 +402,8 @@ body {
   color: #90AB26;
 }
 
+/* Why hapolearn */
+
 .why-hapo {
   width: 100%;
   height: 650px;
@@ -430,6 +442,8 @@ body {
   margin-left: 60px;
 }
 
+/* Become a member  */
+
 .become-a-member {
   width: 100%;
   height: 400px;
@@ -458,6 +472,8 @@ body {
   border-radius: 35px;
   padding: 10px 55px 15px 55px;
 }
+
+/* Statistic */
 
 .statistic {
   width: 100%;
@@ -525,4 +541,112 @@ body {
 .why-hapolearn ul li img {
   width: 15px;
   height: 15px;
+}
+
+/* Feedback */
+
+.feedback {
+  width: 100%;
+  height: 600px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  /* justify-content: center; */
+  align-items: center;
+  margin: 0;
+}
+
+.feedback-text {
+  font: normal bold 60px/74px 'UTM';
+  letter-spacing: -0.05em;
+  color: #11114E;
+  margin-top: -5px;
+  height: 30%;
+}
+
+.feedback-text h3 {
+  margin-bottom: -50px;
+}
+
+.feedback-text button {
+  width: 275px;
+  height: 10px;
+  background-color: #B2D235;
+  border-radius: 3px;
+}
+
+.feedback-text p {
+  font: normal normal 25px/31px 'UTM';
+  color: #505353;
+  letter-spacing: -0.02em;
+}
+
+.usr-comment {
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+}
+
+.number-one {
+  width: 50%;
+  background-image: url(../Image/box-feedback.png);
+  background-repeat: no-repeat;
+  padding: 10px 10px 0 40px;
+  background-size: auto;
+}
+
+.number-two {
+  width: 50%;
+  background-image: url(../Image/box-feedback.png);
+  background-repeat: no-repeat;
+  padding: 10px 40px 0 40px;
+}
+
+.fb-user-content p {
+  font: normal normal 16px/20px UTM;
+  text-align: left;
+  letter-spacing: -0.05em;
+}
+
+.fas {
+  font-size: 30px;
+  color: #969494;
+}
+
+.infor-user {
+  margin-top: 100px;
+  display: flex;
+  align-items: center;
+}
+
+.user-comment {
+  padding-top: 0;
+  margin-left: 20px;
+}
+
+.user-comment h3 {
+  font: normal bold 20px UTM BryantLG_B;
+  color: #11114E;
+  margin-bottom: 0;
+}
+
+.user-comment p {
+  margin: 0;
+  font: normal bold 16px UTM BryantLG;
+  color: #505353;
+}
+
+.checked {
+  color: #F2C54F;
+}
+
+.mess {
+  position: fixed;
+  margin-top: 40%;
+  margin-left: 93%;
+}
+
+.mess a img {
+  height: 45px;
+  width: 45px;
 }
