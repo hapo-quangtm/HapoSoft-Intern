@@ -157,12 +157,12 @@ body {
   width: 50%;
 }
 
-.footer-list .left-list ul li {
+.left-list ul li {
   list-style-type: none;
   margin-bottom: 30px;
 }
 
-.footer-list .left-list ul li a {
+.left-list-button {
   text-decoration: none;
   color: #ffffff;
   font: normal bold 20px 'UTM';
@@ -170,12 +170,12 @@ body {
   letter-spacing: -0.05em;
 }
 
-.footer-list .right-list ul li {
+.right-list ul li {
   list-style-type: none;
   margin-bottom: 30px;
 }
 
-.footer-list .right-list ul li a {
+.right-list-button {
   text-decoration: none;
   color: #ffffff;
   font: normal bold 20px/30px 'UTM';
@@ -192,7 +192,7 @@ body {
   padding-left: 20%;
 }
 
-.footer-right .contact a img {
+.contact a img {
   margin: auto;
   padding-right: 30px;
 }
@@ -416,7 +416,7 @@ body {
   margin-left: 20px;
 }
 
-.why-hapo .why-hapolearn ul li img {
+.why-hapo-learn-check {
   margin: 15px 10px 0 0;
 }
 
