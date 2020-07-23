@@ -48,7 +48,7 @@ body {
   text-transform: uppercase;
   color: #505353;
   text-decoration: none;
-  margin-left: 10px;
+  margin-left: 30px;
   padding: 8px;
 }
 
@@ -81,7 +81,7 @@ body {
 }
 
 .banner-text {
-  font: normal normal "UTM BryantLG";
+  font: normal normal "UTM";
   color: #11114E;
   letter-spacing: -0.05em;
   margin-left: 40px;
@@ -109,7 +109,7 @@ body {
 }
 
 .start-learning {
-  font: normal bold 18px/37px "UTM BryantLG";
+  font: normal bold 20px/37px 'UTM';
   background-color: #B2D235;
   padding: 13px 67px 20px 67px;
   border-radius: 35px;
@@ -122,11 +122,11 @@ body {
   text-align: center;
   width: 100%;
   height: 308px;
-  font: "UTM BryantLG" normal;
+  font: normal 'UTM';
 }
 
 .hapo-footer .footer-content {
-  width: 100%;
+
   height: 280px;
   background-color: #505353;
   text-align: start;
@@ -154,6 +154,10 @@ body {
   width: 50%;
 }
 
+.hapo-footer .footer-right .footer-list .right-list{
+  width: 50%;
+}
+
 .hapo-footer .footer-right .footer-list .left-list ul li {
   list-style-type: none;
   margin-bottom: 30px;
@@ -162,7 +166,7 @@ body {
 .hapo-footer .footer-right .footer-list .left-list ul li a {
   text-decoration: none;
   color: #ffffff;
-  font: "UTM BryantLG" normal bold 20px;
+  font: normal bold 20px 'UTM';
   line-height: 30px;
   letter-spacing: -0.05em;
 }
@@ -175,9 +179,8 @@ body {
 .hapo-footer .footer-right .footer-list .right-list ul li a {
   text-decoration: none;
   color: #ffffff;
-  font: "UTM BryantLG" normal bold 20px;
-  line-height: 30px;
-  letter-spacing: -0.05em;
+  font:  normal bold 20px/30px 'UTM';
+   letter-spacing: -0.05em;
 }
 
 .hapo-footer .footer-content p {
@@ -273,7 +276,7 @@ body {
 }
 
 .lear-button {
-  font: normal bold 18px/22px "UTM BryantLG";
+  font: normal bold 18px/22px 'UTM';
   letter-spacing: -0.05em;
   color: #ffffff;
   border: 0.3px solid #FFFFFF;
@@ -283,19 +286,19 @@ body {
 }
 
 .green-text {
-  font: normal bold 30px/37px "UTM BryantLG";
+  font: normal bold 30px/37px 'UTM';
   letter-spacing: -0.05em;
   color: #B2D235;
 }
 
 .normal-text {
-  font: normal bold 14px/20px "UTM BryantLG";
+  font: normal bold 14px/20px 'UTM';
   letter-spacing: -0.05em;
   color: #505353;
 }
 
 .other-course-text {
-  font: normal bold "UTM BryantLG";
+  font: normal bold 'UTM';
   text-align: center;
   padding-top: 110px;
   font-size: 60px;
@@ -351,7 +354,7 @@ body {
   border-radius: 15px 15px 0px 0px;
   display: flex;
   align-items: center;
-  padding-left: 30%;
+  padding-left: 25%;
 }
 
 .other-course .java-course {
@@ -385,7 +388,7 @@ body {
 
 .text-all-courses a {
   text-decoration: none;
-  font: normal bold 35px/49px "UTM BryantLG";
+  font: normal bold 35px/49px 'UTM';
   letter-spacing: -0.02em;
   color: #90AB26;
 }
@@ -399,7 +402,7 @@ body {
 
 .why-hapolearn {
   width: 60%;
-  font: normal normal 16px/25px "UTM BryantLG";
+  font: normal normal 16px/25px 'UTM';
   color: #ffffff;
   letter-spacing: -0.05em;
 }
@@ -427,3 +430,100 @@ body {
   font-size: 45px;
   margin-left: 60px;
 }
+
+.become-a-member{
+  width: 100%;
+  height: 400px;
+  background-image: url(../Image/Member.png);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  align-items: center;
+}
+
+.become-a-member h1{
+  text-align: center;
+  font: bold 50px/74px 'UTM';
+  color: white;
+  letter-spacing: -0.02em;
+}
+.start-learning2 a button{
+
+  background-color: #ffffff;
+  color: #90AB26;
+  font:  normal bold 30px/37px 'UTM';
+  letter-spacing: -0.05em;
+  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  border-radius: 35px;
+  padding: 10px 55px 15px 55px;
+}
+
+.statistic {
+  width: 100%;
+  height: 400px;
+  text-align: center;
+  align-items: center;
+  display: flex;
+  flex-direction: column;
+  margin-bottom: 50px;
+}
+
+.statistic .statistic-text{
+  width: 100%;
+  height: 40%;
+}
+
+.statistic .statistic-text h3{
+  font: normal bold 60px/0px 'UTM';
+  color: #11114E;
+  letter-spacing: -0.02em;
+  margin: 0;
+  margin-bottom: 25px;
+  margin-top: 30px;
+}
+
+.statistic .statistic-text button{
+  background-color: #B2D235;
+  border-radius: 3px;
+  width: 200px;
+  height: 6px;
+}
+
+.statistic .statistic-number{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
+
+.course{
+  width: 30%;
+}
+
+.lessons{
+  width: 30%;
+}
+
+.learners{
+  width: 30%;
+}
+
+.statistic-number-text{
+  font: normal bold 60px/74px 'UTM';
+  letter-spacing: -0.05em;
+  color: #505353;
+  margin-top: -10px;
+}
+
+.statistic-number-number{
+  font: normal bold 60px/74px 'UTM';
+  letter-spacing: -0.05em;
+  color: #B2D235;
+  margin-top: -5px;
+}
+
+
+
+
+
