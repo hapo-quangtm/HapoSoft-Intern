@@ -224,7 +224,7 @@ body {
   height: 50%;
   background-color: #3F6185;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
   padding-left: 17%;
@@ -330,7 +330,7 @@ body {
   height: 50%;
   background-color: #24ABE2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
   padding-left: 20%;
@@ -350,7 +350,7 @@ body {
   height: 50%;
   background-color: #E14E40;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
   padding-left: 25%;
@@ -366,7 +366,7 @@ body {
   height: 50%;
   background-color: #1B75BB;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.25);
-  border-radius: 15px 15px 0px 0px;
+  border-radius: 15px 15px 0 0;
   display: flex;
   align-items: center;
   padding-left: 17%;
@@ -408,7 +408,7 @@ body {
 
 .laptop-img1 {
   margin-top: -230px;
-  margin-left: 0px;
+  margin-left: 0;
 }
 
 .why-hapo li {
@@ -454,7 +454,7 @@ body {
   color: #90AB26;
   font: normal bold 30px/37px 'UTM';
   letter-spacing: -0.05em;
-  box-shadow: inset 0px 4px 4px rgba(0, 0, 0, 0.25);
+  box-shadow: inset 0 4px 4px rgba(0, 0, 0, 0.25);
   border-radius: 35px;
   padding: 10px 55px 15px 55px;
 }
@@ -475,7 +475,7 @@ body {
 }
 
 .statistic .statistic-text h3 {
-  font: normal bold 60px/0px 'UTM';
+  font: normal bold 60px/0 'UTM';
   color: #11114E;
   letter-spacing: -0.02em;
   margin: 0;
@@ -520,4 +520,9 @@ body {
   letter-spacing: -0.05em;
   color: #B2D235;
   margin-top: -5px;
+}
+
+.why-hapolearn ul li img {
+  width: 15px;
+  height: 15px;
 }
